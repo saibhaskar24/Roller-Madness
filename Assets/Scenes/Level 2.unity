@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6909342520ee9487e9b35dd7277a3fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 6148318706717862096, guid: 12206da81300bae4aa9312552668270f,
+  spawnPrefab: {fileID: 6148318706717862096, guid: 5cf2eea3fa4e92d47aadc646ff878e80,
     type: 3}
   minSecondsBetweenSpawning: 3
   maxSecondsBetweenSpawning: 6
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6909342520ee9487e9b35dd7277a3fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 6148318706717862096, guid: 12206da81300bae4aa9312552668270f,
+  spawnPrefab: {fileID: 6148318706717862096, guid: 5cf2eea3fa4e92d47aadc646ff878e80,
     type: 3}
   minSecondsBetweenSpawning: 3
   maxSecondsBetweenSpawning: 6
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6909342520ee9487e9b35dd7277a3fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 6148318706717862096, guid: 12206da81300bae4aa9312552668270f,
+  spawnPrefab: {fileID: 6148318706717862096, guid: 5cf2eea3fa4e92d47aadc646ff878e80,
     type: 3}
   minSecondsBetweenSpawning: 3
   maxSecondsBetweenSpawning: 6
