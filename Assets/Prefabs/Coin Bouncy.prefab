@@ -16,8 +16,9 @@ GameObject:
   - component: {fileID: 6304090450618950385}
   - component: {fileID: 6304090450618950396}
   - component: {fileID: 1490486144}
-  - component: {fileID: 1490486145}
   - component: {fileID: 1490486146}
+  - component: {fileID: 305042268}
+  - component: {fileID: 305042267}
   m_Layer: 0
   m_Name: Coin Bouncy
   m_TagString: PickUp
@@ -157,7 +158,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000012, y: 2, z: 0.27844605}
   m_Center: {x: 0.00000059604645, y: -0.000000059604645, z: 0.0000006109476}
---- !u!96 &1490486145
+--- !u!114 &1490486146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304090451293912697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d7ea8bfea894ee78c90c91282c295e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOut: 10
+  detachChildren: 0
+--- !u!65 &305042268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304090451293912697}
+  m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000012, y: 2, z: 0.27844605}
+  m_Center: {x: 0.00000059604645, y: -0.000000059604645, z: 0.0000006109476}
+--- !u!96 &305042267
 TrailRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
@@ -263,17 +291,3 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1490486146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6304090451293912697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82d7ea8bfea894ee78c90c91282c295e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeOut: 10
-  detachChildren: 0
